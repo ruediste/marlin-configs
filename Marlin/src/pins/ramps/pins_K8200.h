@@ -31,3 +31,20 @@
 #define DEFAULT_SOURCE_CODE_URL "github.com/CONSULitAS/Marlin-K8200"
 
 #include "pins_3DRAG.h"
+
+#define X_MIN_PIN                          2
+#define X_MAX_PIN                          3
+
+#define BEEPER_PIN -1
+
+#define LCD_PINS_RS 27 
+#define LCD_PINS_ENABLE 29
+#define LCD_PINS_D4 37
+#define LCD_PINS_D5 35 
+#define LCD_PINS_D6 33
+#define LCD_PINS_D7 31
+
+ //buttons are directly attached using AUX-2
+#define BTN_EN1 16
+#define BTN_EN2 17
+#define BTN_ENC 23
