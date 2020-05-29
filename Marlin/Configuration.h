@@ -25,14 +25,14 @@
  * Configuration for the Velleman K8200 series of printers
  * tested on K8200 with VM8201.
  * 
- * Addons:
+ * Addons (uncomment corresponding line below):
  * - VM8201 LCD Display and SD Card Reader 
  * - VM8202 3D PRINTER HEAD LED RING - Always on, no firmware support needed
  * - K8203 DIRECT DRIVE EXTRUDER 
  * - K8204 Z Axis Upgrade
  * */
 
-#define K8200_VM8201
+#define K8200_VM8201 
 // #define K8200_VM8203
 // #define K8200_VM8204
 

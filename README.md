@@ -1,11 +1,6 @@
 # Marlin 3D Printer Firmware
 
-![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
-![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
-![GitHub Release Date](https://img.shields.io/github/release-date/marlinfirmware/marlin.svg)
-[![Build Status](https://github.com/MarlinFirmware/Marlin/workflows/CI/badge.svg?branch=bugfix-2.0.x)](https://github.com/MarlinFirmware/Marlin/actions)
-
-<img align="right" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
+Marlin 2.0.x configured for Vellman K8200. Download and enable your hardware options in `Marlin/Configuration.h`. Note: To upload firmware I follow these [Instructions](http://www.k8200.eu/manual/printing/?c=007), but I choose `Tools->Board->Arduino Mega or Mega 2560` instead of `Arduino Mega 2560 or Mega ADK` since it is not in the list anymore.
 
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
