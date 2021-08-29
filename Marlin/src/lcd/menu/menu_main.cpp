@@ -312,6 +312,8 @@ void menu_main() {
     #endif
   }
   else {
+    SUBMENU(MSG_MEDIA_MENU, MEDIA_MENU_GATEWAY);
+    ACTION_ITEM_S(ui.get_preheat_label(0), MSG_PREHEAT_1, []{ thermalManager.lcd_preheat(0, 0, 0); });
 
     #if BOTH(SDSUPPORT, MEDIA_MENU_AT_TOP)
       sdcard_menu_items();
