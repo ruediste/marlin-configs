@@ -31,3 +31,11 @@
 #define DEFAULT_SOURCE_CODE_URL "github.com/CONSULitAS/Marlin-K8200"
 
 #include "pins_3DRAG.h" // ... RAMPS
+
+#undef X_MIN_PIN
+#define X_MIN_PIN                          2
+
+#undef X_MAX_PIN
+#define X_MAX_PIN                          3
+
+#undef SD_DETECT_PIN

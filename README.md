@@ -12,6 +12,8 @@
     <a href="https://twitter.com/MarlinFirmware"><img alt="Follow MarlinFirmware on Twitter" src="https://img.shields.io/twitter/follow/MarlinFirmware?style=social&logo=twitter"></a>
 </p>
 
+Note: To upload firmware I bridged the program jumper/connector close to the USB connector of the board. Then I used platformIO to build and upload the firmware using the mega2560 environment.
+
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
