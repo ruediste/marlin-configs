@@ -46,9 +46,9 @@
 // Steppers
 //
 #if HAS_CUTTER
-  #define Z_DIR_PIN                           28
-  #define Z_ENABLE_PIN                        24
-  #define Z_STEP_PIN                          26
+//  #define Z_DIR_PIN                           28
+//  #define Z_ENABLE_PIN                        24
+//  #define Z_STEP_PIN                          26
 #else
   #define Z_ENABLE_PIN                        63
 #endif

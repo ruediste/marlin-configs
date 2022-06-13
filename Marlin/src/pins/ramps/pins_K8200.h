@@ -30,6 +30,15 @@
 #define DEFAULT_MACHINE_NAME    "K8200"
 #define DEFAULT_SOURCE_CODE_URL "github.com/CONSULitAS/Marlin-K8200"
 
+#define SPINDLE_LASER_PWM_PIN             8  // Hardware PWM
+#define SPINDLE_LASER_ENA_PIN             -1  // Pullup!
+#define SPINDLE_DIR_PIN                   -1
+#define FAN_PIN -1
+
+#define Z_DIR_PIN 48
+#define Z_ENABLE_PIN 63
+#define Z_STEP_PIN 46
+
 #include "pins_3DRAG.h" // ... RAMPS
 
 #undef X_MIN_PIN

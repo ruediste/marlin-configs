@@ -31,6 +31,8 @@
   #include "../HAL/HAL.h"
 #endif
 
+#define FET_ORDER_EFB 1
+
 #include "../pins/pins.h"
 
 #ifndef __MARLIN_DEPS__
