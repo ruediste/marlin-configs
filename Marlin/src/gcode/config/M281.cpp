@@ -25,6 +25,7 @@
 
 #include "../gcode.h"
 #include "../../module/servo.h"
+#include "../../core/serial.h"
 
 /**
  * M281 - Edit / Report Servo Angles
